@@ -12,7 +12,6 @@ float weight;
 float calibration_factor = 34000; // for me this vlaue works just perfect 211000  
 WiFiClient client;
 float X = 3;
-
 void setup() {
   Serial.begin(9600);
   Serial.println("Ready.");
